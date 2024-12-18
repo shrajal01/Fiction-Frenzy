@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction </title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-book-open"></i> Fiction Frenzy</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="genre.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+            <a href="review.html">review</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/alone.jpg" alt="">
+                <div class="content">
+                    <h3>The Art of Being Alone</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/grow.jpeg" alt="">
+                <div class="content">
+                    <h3>Think and Grow Rich</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/love.jpg" alt="">
+                <div class="content">
+                    <h3>I too had a Lovestory</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+            <h3 class="total">total: $56.97</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    
+
+    <section class="review">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                    margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+            }
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                background: #fff;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+            .heading {
+                font-size: 24px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #333;
+            }
+            .book {
+                margin-bottom: 20px;
+            }
+            .book-icon {
+                width: 50px;
+                height: 50px;
+                margin-right: 15px;
+                vertical-align: middle;
+            }
+            .book-title {
+                font-size: 18px;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+            .review {
+                margin-top: 10px;
+                padding: 10px;
+                background-color: #f1f1f1;
+                border-left: 4px solid #0073e6;
+                border-radius: 4px;
+                font-size: 14px;
+                color: #555;
+            }
+            .submit-review {
+                margin-top: 30px;
+                text-align: center;
+            }
+            .submit-review input {
+                width: calc(100% - 30px);
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+            .submit-review button {
+                padding: 10px 20px;
+                border: none;
+                background-color: #0073e6;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .submit-review button:hover {
+                background-color: #005bb5;
+            }
+        </style>
+    
+
+        <div class="container">
+            <div class="heading">Sample Reviews</div>
+    
+            <div class="book">
+                <img src="images/mock.jpg" alt="To Kill a Mockingbird Icon" class="book-icon">
+                <span class="book-title">To Kill a Mockingbird</span>
+                <div class="review">
+                    <ul>
+                        <li>A timeless story that delves into themes of justice and morality.</li>
+                        <li>Characters are profoundly impactful, especially the perspective of Scout.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="images/1984.jpg" alt="1984 Icon" class="book-icon">
+                <span class="book-title">1984</span>
+                <div class="review">
+                    <ul>
+                        <li>A chilling dystopian tale about surveillance and control.</li>
+                        <li>Orwell’s vision of totalitarianism remains relevant today.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="images/gatsby.jpg" alt="The Great Gatsby Icon" class="book-icon">
+                <span class="book-title">The Great Gatsby</span>
+                <div class="review">
+                    <ul>
+                        <li>An evocative portrayal of the Jazz Age and the American Dream.</li>
+                        <li>Fitzgerald’s prose is lyrical and unforgettable.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="images/harry.jpg" alt="Harry Potter Icon" class="book-icon">
+                <span class="book-title">Harry Potter and the Philosopher’s Stone</span>
+                <div class="review">
+                    <ul>
+                        <li>A magical start to an iconic series that captures all ages.</li>
+                        <li>World-building and characters are enchanting and immersive.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="images/pride.avif" alt="Pride and Prejudice Icon" class="book-icon">
+                <span class="book-title">Pride and Prejudice</span>
+                <div class="review">
+                    <ul>
+                        <li>A witty and romantic exploration of societal norms and personal growth.</li>
+                        <li>Elizabeth Bennet’s character is as sharp as ever.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="submit-review">
+                <input type="text" placeholder="Write your review here...">
+                <br>
+                <button>Submit Review</button>
+            </div>
+        </div>
+    </body>
+       
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p></p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+123-456-7890</p>
+                <a href="#" class="link">FictionFrenzy@gmail.com</a>
+            </div>
+
+            <div class="box">
+            
+            </div>
+
+        </div>
+        <div class="credit">created by <span>Friction Frenzy</span> | all rights reserved!</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+    
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+</html>
